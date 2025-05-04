@@ -1,15 +1,13 @@
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hidayah/app/utils/color/app_colors.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import '../../../../app/utils/sizes.dart';
 import '../../../common/widget/custom_appbar.dart';
 import '../data/hadis_name_list.dart';
 
 class HadisScreen extends StatefulWidget {
   const HadisScreen({super.key});
- static const String name = '/hadis-screen';
+  static const String name = '/hadis-screen';
   @override
   State<HadisScreen> createState() => _HadisScreenState();
 }
@@ -18,15 +16,22 @@ class _HadisScreenState extends State<HadisScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomImageAppBar(title: "হাদীস", onTap: () {
-        Get.back();
-      },),
-        body:Column(children: [
-          Text("সহীহ বুখারী",style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: AppColors.primaryColor,
-            fontSize: 30,
-          ),),
+      appBar: CustomImageAppBar(
+        title: "হাদীস",
+        onTap: () {
+          Get.back();
+        },
+      ),
+      body: Column(
+        children: [
+          Text(
+            "সহীহ বুখারী",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: AppColors.primaryColor,
+              fontSize: 30,
+            ),
+          ),
           Expanded(
             child: GridView.builder(
               shrinkWrap: true,
@@ -42,7 +47,7 @@ class _HadisScreenState extends State<HadisScreen> {
                 final width = AppSizes.width(context);
 
                 return Padding(
-                  padding:  EdgeInsets.all(AppSizes.defaultPadding(context)),
+                  padding: EdgeInsets.all(AppSizes.defaultPadding(context)),
                   child: GestureDetector(
                     onTap: () {
                       Get.toNamed(hadisNameList[index].route);
@@ -81,20 +86,11 @@ class _HadisScreenState extends State<HadisScreen> {
               },
             ),
           ),
-
-
-        ],)
-
-
-
-
-
-
-
+        ],
+      ),
 
       /*SfPdfViewer.asset(
             'assets/pdf/sahih_bukhari_part_1.pdf'),*/
-
     );
   }
 }

@@ -18,7 +18,7 @@ class _SahihBukhariPart7ScreenState extends State<SahihBukhariPart7Screen> {
       body: Padding(
         padding:  EdgeInsets.symmetric(horizontal: AppSizes.defaultPadding(context)),
         child: Column(children: [
-          SizedBox(height: 20,),
+          SizedBox(height: 50,),
           Text("সহীহ বুখারী খন্ড ৭",style: TextStyle(
               color: AppColors.black,
               fontSize: 20,

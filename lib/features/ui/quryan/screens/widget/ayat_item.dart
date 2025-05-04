@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../../../app/utils/color/app_colors.dart';
 
 
-class ayatItem extends StatelessWidget {
-  const ayatItem({
+class AyatItem extends StatelessWidget {
+  const AyatItem({
     super.key,
     required this.ayat,
   });

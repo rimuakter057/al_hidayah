@@ -1,9 +1,8 @@
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hidayah/features/ui/namaz/screens/widget/namaj_details.dart';
-
 import '../../../common/widget/custom_appbar.dart';
+import '../data/fojor_item_list.dart';
 
 class FojorScreen extends StatefulWidget {
   const FojorScreen({super.key});
@@ -17,15 +16,17 @@ class _FojorScreenState extends State<FojorScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomImageAppBar(onTap: (){
-        Get.back();
-      }, title: "ফজর",),
-   body:NamazDetailsScreen(
-     title: "ফজর নামাজ",
-     time: "ভোরের শুরু থেকে সূর্যোদয় পর্যন্ত (প্রায় ৪:১৫ AM - ৫:৩০ AM)",
-     rakats: ["সুন্নত: ২ রাকাত", "ফরজ: ২ রাকাত"],
-   ),
-
+      appBar: CustomImageAppBar(
+        onTap: () {
+          Get.back();
+        },
+        title: "ফজর",
+      ),
+      body: NamazDetailsScreen(
+        title: fojorItemList[0]['title'],
+        time: fojorItemList[0]['time'],
+        rakats: ["সুন্নত: ২ রাকাত", "ফরজ: ২ রাকাত"],
+      ),
     );
   }
 }

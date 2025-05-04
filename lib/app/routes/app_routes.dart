@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hidayah/features/ui/hadis/screen/hadis_screen.dart';
 import 'package:hidayah/features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_1_screen.dart';
+import 'package:hidayah/features/ui/read_more/read_more_screen.dart';
+import 'package:hidayah/features/ui/splash_screen.dart';
 
 import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_10_screen.dart';
 import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_2_screen.dart';
@@ -11,6 +13,11 @@ import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_6_screen
 import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_7_screen.dart';
 import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_8_screen.dart';
 import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_9_screen.dart';
+import '../../features/ui/home/screens/home_screen.dart';
+import '../../features/ui/ibadat/screens/allah_name_screen.dart';
+import '../../features/ui/ibadat/screens/hoz_screen.dart';
+import '../../features/ui/ibadat/screens/jakat_screens.dart';
+import '../../features/ui/ibadat/screens/tasbih_count_screen.dart';
 import '../../features/ui/namaz/screens/asr_screen.dart';
 import '../../features/ui/namaz/screens/fojor_screen.dart';
 import '../../features/ui/namaz/screens/isha_screen.dart';
@@ -18,34 +25,23 @@ import '../../features/ui/namaz/screens/johor_screen.dart';
 import '../../features/ui/namaz/screens/magrib_screen.dart';
 import '../../features/ui/quryan/screens/sura_name_list_screen.dart';
 import '../../features/ui/quryan/screens/sura_read_screen.dart';
-import '../../features/ui/screen/dua/screens/audio_mp3_screen.dart';
-import '../../features/ui/screen/dua/screens/dua_playlist_screen.dart';
-import '../../features/ui/screen/home/screens/home_screen.dart';
-
-import '../../features/ui/screen/ibadat/screens/allah_name_screen.dart';
-import '../../features/ui/screen/ibadat/screens/hoz_screen.dart';
-import '../../features/ui/screen/ibadat/screens/jakat_screens.dart';
-import '../../features/ui/screen/ibadat/screens/tasbih_count_screen.dart';
-
-import '../../features/ui/screen/salat/screens/prayer_list_screen.dart';
 class AppRoutes {
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     debugPrint("Route requested: ${settings.name}");
 
     late Widget route;
-    if (settings.name == HomeScreen.name) {
+    if (settings.name == SplashScreen.name) {
+      route = const SplashScreen();
+    }
+    else if (settings.name == HomeScreen.name) {
       route = const HomeScreen();
     }
-
 
     else if (settings.name == JakatScreen.name) {
       route = const JakatScreen();
     }
 
 
-    else if (settings.name == PrayerListScreen.name) {
-      route = const PrayerListScreen();
-    }
     else if (settings.name == SuraReadScreen.name) {
       final data=settings.arguments as Map<String,dynamic>;
       route =  SuraReadScreen(suraFile: data,);
@@ -58,10 +54,6 @@ class AppRoutes {
     }
     else if (settings.name == AllahNameScreen.name) {
       route = const AllahNameScreen();
-    }    else if (settings.name == DuaPlayListScreen.name) {
-      route = const DuaPlayListScreen();
-    } else if (settings.name == AudioMp3Screen.name) {
-      route = const AudioMp3Screen();
     }
     else if (settings.name == TasbihCountScreen.name) {
       route = const TasbihCountScreen();
@@ -103,9 +95,12 @@ class AppRoutes {
       route = const SahihBukhariPart9Screen();
     }else if (settings.name == SahihBukhariPart10Screen.name) {
       route = const SahihBukhariPart10Screen();
+    }else if (settings.name == ReadMoreScreen.name) {
+      route = const ReadMoreScreen();
     }
 
-      else {
+
+    else {
       return MaterialPageRoute(
         builder: (_) => Scaffold(
           body: Center(child: Text(" No route defined for ${settings.name}")),
