@@ -1,6 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:hidayah/features/ui/hadis/screen/hadis_screen.dart';
+import 'package:hidayah/features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_1_screen.dart';
 
+import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_10_screen.dart';
+import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_2_screen.dart';
+import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_3_screen.dart';
+import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_4_screen.dart';
+import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_5_screen.dart';
+import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_6_screen.dart';
+import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_7_screen.dart';
+import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_8_screen.dart';
+import '../../features/ui/hadis/screen/sahih_bukhari/sahih_bukhari_part_9_screen.dart';
 import '../../features/ui/namaz/screens/asr_screen.dart';
 import '../../features/ui/namaz/screens/fojor_screen.dart';
 import '../../features/ui/namaz/screens/isha_screen.dart';
@@ -73,6 +83,27 @@ class AppRoutes {
       route = const HozScreen();
     }
 
+    else if (settings.name == SahihBukhariPart1Screen.name) {
+      route = const SahihBukhariPart1Screen();
+    }else if (settings.name == SahihBukhariPart2Screen.name) {
+      route = const SahihBukhariPart2Screen();
+    }else if (settings.name == SahihBukhariPart3Screen.name) {
+      route = const SahihBukhariPart3Screen();
+    }else if (settings.name == SahihBukhariPart4Screen.name) {
+      route = const SahihBukhariPart4Screen();
+    }else if (settings.name == SahihBukhariPart5Screen.name) {
+      route = const SahihBukhariPart5Screen();
+    }else if (settings.name == SahihBukhariPart6Screen.name) {
+      route = const SahihBukhariPart6Screen();
+    }else if (settings.name == SahihBukhariPart7Screen.name) {
+      route = const SahihBukhariPart7Screen();
+    }else if (settings.name == SahihBukhariPart8Screen.name) {
+      route = const SahihBukhariPart8Screen();
+    }else if (settings.name == SahihBukhariPart9Screen.name) {
+      route = const SahihBukhariPart9Screen();
+    }else if (settings.name == SahihBukhariPart10Screen.name) {
+      route = const SahihBukhariPart10Screen();
+    }
 
       else {
       return MaterialPageRoute(
