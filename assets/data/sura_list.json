@@ -1,0 +1,915 @@
+[
+
+    {
+      "number": 1,
+      "name": "سُورَةُ ٱلْفَاتِحَةِ",
+      "englishName": "Al-Faatiha",
+      "filename": "alfaatiha",
+      "revelationType": "Meccan",
+      "ayatNumber": 7
+    },
+    {
+      "number": 2,
+      "name": "سُورَةُ البَقَرَةِ",
+      "englishName": "Al-Baqara",
+      "filename": "albaqara",
+      "revelationType": "Medinan",
+      "ayatNumber": 286
+    },
+    {
+      "number": 3,
+      "name": "سُورَةُ آلِ عِمۡرَانَ",
+      "englishName": "Aal-i-Imraan",
+      "filename": "aaliimraan",
+      "revelationType": "Medinan",
+      "ayatNumber": 200
+    },
+    {
+      "number": 4,
+      "name": "سُورَةُ النِّسَاءِ",
+      "englishName": "An-Nisaa",
+      "filename": "annisaa",
+      "revelationType": "Medinan",
+      "ayatNumber": 176
+    },
+    {
+      "number": 5,
+      "name": "سُورَةُ المَائـِدَةِ",
+      "englishName": "Al-Maaida",
+      "filename": "almaaida",
+      "revelationType": "Medinan",
+      "ayatNumber": 120
+    },
+    {
+      "number": 6,
+      "name": "سُورَةُ الأَنۡعَامِ",
+      "englishName": "Al-An'aam",
+      "filename": "alanaam",
+      "revelationType": "Meccan",
+      "ayatNumber": 165
+    },
+    {
+      "number": 7,
+      "name": "سُورَةُ الأَعۡرَافِ",
+      "englishName": "Al-A'raaf",
+      "filename": "alaraaf",
+      "revelationType": "Meccan",
+      "ayatNumber": 206
+    },
+    {
+      "number": 8,
+      "name": "سُورَةُ الأَنفَالِ",
+      "englishName": "Al-Anfaal",
+      "filename": "alanfaal",
+      "revelationType": "Medinan",
+      "ayatNumber": 75
+    },
+    {
+      "number": 9,
+      "name": "سُورَةُ التَّوۡبَةِ",
+      "englishName": "At-Tawba",
+      "filename": "attawba",
+      "revelationType": "Medinan",
+      "ayatNumber": 129
+    },
+    {
+      "number": 10,
+      "name": "سُورَةُ يُونُسَ",
+      "englishName": "Yunus",
+      "filename": "yunus",
+      "revelationType": "Meccan",
+      "ayatNumber": 109
+    },
+    {
+      "number": 11,
+      "name": "سُورَةُ هُودٍ",
+      "englishName": "Hud",
+      "filename": "hud",
+      "revelationType": "Meccan",
+      "ayatNumber": 123
+    },
+    {
+      "number": 12,
+      "name": "سُورَةُ يُوسُفَ",
+      "englishName": "Yusuf",
+      "filename": "yusuf",
+      "revelationType": "Meccan",
+      "ayatNumber": 111
+    },
+    {
+      "number": 13,
+      "name": "سُورَةُ رَعۡدٍ",
+      "englishName": "Ar-Ra'd",
+      "filename": "arraad",
+      "revelationType": "Medinan",
+      "ayatNumber": 43
+    },
+    {
+      "number": 14,
+      "name": "سُورَةُ إبراهيم",
+      "englishName": "Ibrahim",
+      "filename": "ibrahim",
+      "revelationType": "Meccan",
+      "ayatNumber": 52
+    },
+    {
+      "number": 15,
+      "name": "سُورَةُ الحِجۡرِ",
+      "englishName": "Al-Hijr",
+      "filename": "alhijr",
+      "revelationType": "Meccan",
+      "ayatNumber": 99
+    },
+    {
+      "number": 16,
+      "name": "سُورَةُ النَّحۡلِ",
+      "englishName": "An-Nahl",
+      "filename": "annahl",
+      "revelationType": "Meccan",
+      "ayatNumber": 128
+    },
+    {
+      "number": 17,
+      "name": "سُورَةُ الإِسۡرَاءِ",
+      "englishName": "Al-Isra",
+      "filename": "al-isra",
+      "revelationType": "Meccan",
+      "ayatNumber": 111
+    },
+    {
+      "number": 18,
+      "name": "سُورَةُ الكَهۡفِ",
+      "englishName": "Al-Kahf",
+      "filename": "alkahf",
+      "revelationType": "Meccan",
+      "ayatNumber": 110
+    },
+    {
+      "number": 19,
+      "name": "سُورَةُ مَرۡيَمَ",
+      "englishName": "Maryam",
+      "filename": "maryam",
+      "revelationType": "Meccan",
+      "ayatNumber": 59
+    },
+    {
+      "number": 20,
+      "name": "سُورَةُ طٰهٰ",
+      "englishName": "Taha",
+      "filename": "taha",
+      "revelationType": "Meccan",
+      "ayatNumber": 135
+    },
+    {
+      "number": 21,
+      "name": "سُورَةُ الأَنْبِيَاءِ",
+      "englishName": "Al-Anbiya",
+      "filename": "alanbiya",
+      "revelationType": "Meccan",
+      "ayatNumber": 112
+    },
+    {
+      "number": 22,
+      "name": "سُورَةُ الحَجِّ",
+      "englishName": "Al-Hajj",
+      "filename": "alhajj",
+      "revelationType": "Medinan",
+      "ayatNumber": 78
+    },
+    {
+      "number": 23,
+      "name": "سُورَةُ ٱلْمُؤْمِنُونَ",
+      "englishName": "Al-Mu'minun",
+      "filename": "almu'minun",
+      "revelationType": "Meccan",
+      "ayatNumber": 118
+    },
+    {
+      "number": 24,
+      "name": "سُورَةُ النُّورِ",
+      "englishName": "An-Nur",
+      "filename": "annur",
+      "revelationType": "Medinan",
+      "ayatNumber": 64
+    },
+    {
+      "number": 25,
+      "name": "سُورَةُ الفُرۡقَانِ",
+      "englishName": "Al-Furqan",
+      "filename": "alfurqan",
+      "revelationType": "Meccan",
+      "ayatNumber": 77
+    },
+    {
+      "number": 26,
+      "name": "سُورَةُ الشُّعَرَاءِ",
+      "englishName": "Ash-Shu'ara",
+      "filename": "ashshuara",
+      "revelationType": "Meccan",
+      "ayatNumber": 227
+    },
+    {
+      "number": 27,
+      "name": "سُورَةُ النَّمۡلِ",
+      "englishName": "An-Naml",
+      "filename": "annaml",
+      "revelationType": "Meccan",
+      "ayatNumber": 55
+    },
+    {
+      "number": 28,
+      "name": "سُورَةُ الْقَصَصِ",
+      "englishName": "Al-Qasas",
+      "filename": "alqasas",
+      "revelationType": "Meccan",
+      "ayatNumber": 88
+    },
+    {
+      "number": 29,
+      "name": "سُورَةُ العَنكَبُوتِ",
+      "englishName": "Al-Ankabut",
+      "filename": "alankabut",
+      "revelationType": "Meccan",
+      "ayatNumber": 69
+    },
+    {
+      "number": 30,
+      "name": "سُورَةُ الرُّومِ",
+      "englishName": "Ar-Rum",
+      "filename": "arrum",
+      "revelationType": "Meccan",
+      "ayatNumber": 60
+    },
+    {
+      "number": 31,
+      "name": "سُورَةُ لُقۡمَٰن",
+      "englishName": "Luqman",
+      "filename": "luqman",
+      "revelationType": "Meccan",
+      "ayatNumber": 34
+    },
+    {
+      "number": 32,
+      "name": "سُورَةُ السَّجْدَةِ",
+      "englishName": "As-Sajda",
+      "filename": "assajda",
+      "revelationType": "Meccan",
+      "ayatNumber": 30
+    },
+    {
+      "number": 33,
+      "name": "سُورَةُ الأحزابِ",
+      "englishName": "Al-Ahzab",
+      "filename": "alahzab",
+      "revelationType": "Medinan",
+      "ayatNumber": 73
+    },
+    {
+      "number": 34,
+      "name": "سُورَةُ سَبَأٍ",
+      "englishName": "Saba",
+      "filename": "saba",
+      "revelationType": "Meccan",
+      "ayatNumber": 54
+    },
+    {
+      "number": 35,
+      "name": "سُورَةُ فَاطِرٍ",
+      "englishName": "Fatir",
+      "filename": "fatir",
+      "revelationType": "Meccan",
+      "ayatNumber": 45
+    },
+    {
+      "number": 36,
+      "name": "سُورَةُ يَس",
+      "englishName": "Ya-Sin",
+      "filename": "yasin",
+      "revelationType": "Meccan",
+      "ayatNumber": 83
+    },
+    {
+      "number": 37,
+      "name": "سُورَةُ الصَّافَّاتِ",
+      "englishName": "As-Saffat",
+      "filename": "assaffat",
+      "revelationType": "Meccan",
+      "ayatNumber": 182
+    },
+    {
+      "number": 38,
+      "name": "سُورَةُ صَادٍ",
+      "englishName": "Sad",
+      "filename": "sad",
+      "revelationType": "Meccan",
+      "ayatNumber": 88
+    },
+    {
+      "number": 39,
+      "name": "سُورَةُ الزُّمَرِ",
+      "englishName": "Az-Zumar",
+      "filename": "azzumar",
+      "revelationType": "Meccan",
+      "ayatNumber": 75
+    },
+    {
+      "number": 40,
+      "name": "سُورَةُ غَافِرٍ",
+      "englishName": "Ghafir",
+      "filename": "ghafir",
+      "revelationType": "Meccan",
+      "ayatNumber": 85
+    },
+    {
+      "number": 41,
+      "name": "سُورَةُ فُصِّلَتْ",
+      "englishName": "Fussilat",
+      "filename": "fussilat",
+      "revelationType": "Meccan",
+      "ayatNumber": 54
+    },
+    {
+      "number": 42,
+      "name": "سُورَةُ الشُّورَىٰ",
+      "englishName": "Ash-Shura",
+      "filename": "ashshura",
+      "revelationType": "Meccan",
+      "ayatNumber": 53
+    },
+    {
+      "number": 43,
+      "name": "سُورَةُ الزُّخۡرُفِ",
+      "englishName": "Az-Zukhruf",
+      "filename": "azzukhruf",
+      "revelationType": "Meccan",
+      "ayatNumber": 89
+    },
+    {
+      "number": 44,
+      "name": "سُورَةُ الدُّخَانِ",
+      "englishName": "Ad-Dukhan",
+      "filename": "addukhan",
+      "revelationType": "Meccan",
+      "ayatNumber": 59
+    },
+    {
+      "number": 45,
+      "name": "سُورَةُ الجَاثِيَةِ",
+      "englishName": "Al-Jathiya",
+      "filename": "aljathiya",
+      "revelationType": "Meccan",
+      "ayatNumber": 37
+    },
+    {
+      "number": 46,
+      "name": "سُورَةُ الأَحْقَافِ",
+      "englishName": "Al-Ahqaf",
+      "filename": "alahqaf",
+      "revelationType": "Meccan",
+      "ayatNumber": 34
+    },
+    {
+      "number": 47,
+      "name": "سُورَةُ مُحَمَّدٍ",
+      "englishName": "Muhammad",
+      "filename": "muhammad",
+      "revelationType": "Medinan",
+      "ayatNumber": 38
+    },
+    {
+      "number": 48,
+      "name": "سُورَةُ الفَتْحِ",
+      "englishName": "Al-Fath",
+      "filename": "alfath",
+      "revelationType": "Medinan",
+      "ayatNumber": 29
+    },
+    {
+      "number": 49,
+      "name": "سُورَةُ الْحُجُرَاتِ",
+      "englishName": "Al-Hujurat",
+      "filename": "alhujurat",
+      "revelationType": "Medinan",
+      "ayatNumber": 18
+    },
+    {
+      "number": 50,
+      "name": "سُورَةُ قٓ",
+      "englishName": "Qaf",
+      "filename": "qaf",
+      "revelationType": "Meccan",
+      "ayatNumber": 45
+    },
+    {
+      "number": 51,
+      "name": "سُورَةُ الذَّارِيَاتِ",
+      "englishName": "Adh-Dhariyat",
+      "filename": "adhdhariyat",
+      "revelationType": "Meccan",
+      "ayatNumber": 60
+    },
+    {
+      "number": 52,
+      "name": "سُورَةُ الطُّورِ",
+      "englishName": "At-Tur",
+      "filename": "attur",
+      "revelationType": "Meccan",
+      "ayatNumber": 49
+    },
+    {
+      "number": 53,
+      "name": "سُورَةُ النَّجْمِ",
+      "englishName": "An-Najm",
+      "filename": "annajm",
+      "revelationType": "Meccan",
+      "ayatNumber": 62
+    },
+    {
+      "number": 54,
+      "name": "سُورَةُ القَمَرِ",
+      "englishName": "Al-Qamar",
+      "filename": "alqamar",
+      "revelationType": "Meccan",
+      "ayatNumber": 55
+    },
+    {
+      "number": 55,
+      "name": "سُورَةُ الرَّحْمَٰنِ",
+      "englishName": "Ar-Rahman",
+      "filename": "arrahman",
+      "revelationType": "Medinan",
+      "ayatNumber": 78
+    },
+    {
+      "number": 56,
+      "name": "سُورَةُ الْوَاقِعَةِ",
+      "englishName": "Al-Waqia",
+      "filename": "alwaqia",
+      "revelationType": "Meccan",
+      "ayatNumber": 96
+    },
+    {
+      "number": 57,
+      "name": "سُورَةُ الْحَدِيدِ",
+      "englishName": "Al-Hadid",
+      "filename": "alhadid",
+      "revelationType": "Medinan",
+      "ayatNumber": 29
+    },
+    {
+      "number": 58,
+      "name": "سُورَةُ الْمُجَادَلَةِ",
+      "englishName": "Al-Mujadila",
+      "filename": "almujadila",
+      "revelationType": "Medinan",
+      "ayatNumber": 22
+    },
+    {
+      "number": 59,
+      "name": "سُورَةُ الحَشْرِ",
+      "englishName": "Al-Hashr",
+      "filename": "alhashr",
+      "revelationType": "Medinan",
+      "ayatNumber": 24
+    },
+    {
+      "number": 60,
+      "name": "سُورَةُ المُمْتَحَنَةِ",
+      "englishName": "Al-Mumtahina",
+      "filename": "almumtahina",
+      "revelationType": "Medinan",
+      "ayatNumber": 13
+
+  },
+
+
+
+
+
+
+
+  {
+    "number": 62,
+    "name": "سُورَةُ الجُمُعَةِ",
+    "englishName": "Al-Jumu'a",
+    "filename": "aljumua",
+    "revelationType": "Medinan",
+    "ayatNumber": 11
+  },
+  {
+    "number": 63,
+    "name": "سُورَةُ المُنَافِقُونَ",
+    "englishName": "Al-Munaafiqoon",
+    "filename": "almunaafiqoon",
+    "revelationType": "Medinan",
+    "ayatNumber": 11
+  },
+  {
+    "number": 64,
+    "name": "سُورَةُ التَّغَابُنِ",
+    "englishName": "At-Taghaabun",
+    "filename": "attaghaabun",
+    "revelationType": "Medinan",
+    "ayatNumber": 18
+  },
+  {
+    "number": 65,
+    "name": "سُورَةُ الطَّلَاقِ",
+    "englishName": "At-Talaaq",
+    "filename": "attalaaq",
+    "revelationType": "Medinan",
+    "ayatNumber": 12
+  },
+  {
+    "number": 66,
+    "name": "سُورَةُ التَّحۡرِيمِ",
+    "englishName": "At-Tahrim",
+    "filename": "attahrim",
+    "revelationType": "Medinan",
+    "ayatNumber": 12
+  },
+  {
+    "number": 67,
+    "name": "سُورَةُ المُلۡكِ",
+    "englishName": "Al-Mulk",
+    "filename": "almulk",
+    "revelationType": "Meccan",
+    "ayatNumber": 30
+  },
+  {
+    "number": 68,
+    "name": "سُورَةُ القَلَمِ",
+    "englishName": "Al-Qalam",
+    "filename": "alqalam",
+    "revelationType": "Meccan",
+    "ayatNumber": 52
+  },
+  {
+    "number": 69,
+    "name": "سُورَةُ الحَاقَّةِ",
+    "englishName": "Al-Haaqqa",
+    "filename": "alhaaqqa",
+    "revelationType": "Meccan",
+    "ayatNumber": 52
+  },
+  {
+    "number": 70,
+    "name": "سُورَةُ المَعَارِجِ",
+    "englishName": "Al-Ma'aarij",
+    "filename": "almaaarij",
+    "revelationType": "Meccan",
+    "ayatNumber": 44
+  },
+  {
+    "number": 71,
+    "name": "سُورَةُ نُوحٍ",
+    "englishName": "Nooh",
+    "filename": "nooh",
+    "revelationType": "Meccan",
+    "ayatNumber": 28
+  },
+  {
+    "number": 72,
+    "name": "سُورَةُ الجِنِّ",
+    "englishName": "Al-Jinn",
+    "filename": "aljinn",
+    "revelationType": "Meccan",
+    "ayatNumber": 28
+  },
+  {
+    "number": 73,
+    "name": "سُورَةُ المُزَّمِّلِ",
+    "englishName": "Al-Muzzammil",
+    "filename": "almuzzammil",
+    "revelationType": "Meccan",
+    "ayatNumber": 20
+  },
+  {
+    "number": 74,
+    "name": "سُورَةُ المُدَّثِّرِ",
+    "englishName": "Al-Muddaththir",
+    "filename": "almuddaththir",
+    "revelationType": "Meccan",
+    "ayatNumber": 56
+  },
+  {
+    "number": 75,
+    "name": "سُورَةُ القِيَامَةِ",
+    "englishName": "Al-Qiyaama",
+    "filename": "alqiyaama",
+    "revelationType": "Meccan",
+    "ayatNumber": 40
+  },
+  {
+    "number": 76,
+    "name": "سُورَةُ الإِنسَانِ",
+    "englishName": "Al-Insaan",
+    "filename": "alinsaan",
+    "revelationType": "Medinan",
+    "ayatNumber": 31
+  },
+  {
+    "number": 77,
+    "name": "سُورَةُ المُرۡسَلَاتِ",
+    "englishName": "Al-Mursalaat",
+    "filename": "almursalaat",
+    "revelationType": "Meccan",
+    "ayatNumber": 50
+  },
+  {
+    "number": 78,
+    "name": "سُورَةُ النَّبَإِ",
+    "englishName": "An-Naba",
+    "filename": "annaba",
+    "revelationType": "Meccan",
+    "ayatNumber": 40
+  },
+  {
+    "number": 79,
+    "name": "سُورَةُ النَّازِعَاتِ",
+    "englishName": "An-Naazi'aat",
+    "filename": "annaaziaat",
+    "revelationType": "Meccan",
+    "ayatNumber": 46
+  },
+  {
+    "number": 80,
+    "name": "سُورَةُ عَبَسَ",
+    "englishName": "Abasa",
+    "filename": "abasa",
+    "revelationType": "Meccan",
+    "ayatNumber": 42
+  },
+  {
+    "number": 81,
+    "name": "سُورَةُ التَّكۡوِيرِ",
+    "englishName": "At-Takwir",
+    "filename": "attakwir",
+    "revelationType": "Meccan",
+    "ayatNumber": 29
+  },
+  {
+    "number": 82,
+    "name": "سُورَةُ الانفِطَارِ",
+    "englishName": "Al-Infitaar",
+    "filename": "alinfitaar",
+    "revelationType": "Meccan",
+    "ayatNumber": 19
+  },
+  {
+    "number": 83,
+    "name": "سُورَةُ المُطَفِّفِينَ",
+    "englishName": "Al-Mutaffifin",
+    "filename": "almutaffifin",
+    "revelationType": "Meccan",
+    "ayatNumber": 36
+  },
+  {
+    "number": 84,
+    "name": "سُورَةُ الانشِقَاقِ",
+    "englishName": "Al-Inshiqaaq",
+    "filename": "alinshiqaaq",
+    "revelationType": "Meccan",
+    "ayatNumber": 25
+  },
+  {
+    "number": 85,
+    "name": "سُورَةُ البُرُوجِ",
+    "englishName": "Al-Burooj",
+    "filename": "alburooj",
+    "revelationType": "Meccan",
+    "ayatNumber": 22
+  },
+  {
+    "number": 86,
+    "name": "سُورَةُ الطَّارِقِ",
+    "englishName": "At-Taariq",
+    "filename": "attaariq",
+    "revelationType": "Meccan",
+    "ayatNumber": 17
+  },
+  {
+    "number": 87,
+    "name": "سُورَةُ الأَعۡلَىٰ",
+    "englishName": "Al-A'laa",
+    "filename": "alalaa",
+    "revelationType": "Meccan",
+    "ayatNumber": 19
+  },
+  {
+    "number": 88,
+    "name": "سُورَةُ الغَاشِيَةِ",
+    "englishName": "Al-Ghaashiya",
+    "filename": "alghaashiya",
+    "revelationType": "Meccan",
+    "ayatNumber": 26
+  },
+  {
+    "number": 89,
+    "name": "سُورَةُ الفَجۡرِ",
+    "englishName": "Al-Fajr",
+    "filename": "alfajr",
+    "revelationType": "Meccan",
+    "ayatNumber": 30
+  },
+  {
+    "number": 90,
+    "name": "سُورَةُ البَلَدِ",
+    "englishName": "Al-Balad",
+    "filename": "albalad",
+    "revelationType": "Meccan",
+    "ayatNumber": 20
+  },
+  {
+    "number": 91,
+    "name": "سُورَةُ الشَّمۡسِ",
+    "englishName": "Ash-Shams",
+    "filename": "ashshams",
+    "revelationType": "Meccan",
+    "ayatNumber": 15
+  },
+  {
+    "number": 92,
+    "name": "سُورَةُ اللَّيۡلِ",
+    "englishName": "Al-Lail",
+    "filename": "allail",
+    "revelationType": "Meccan",
+    "ayatNumber": 21
+  },
+  {
+    "number": 93,
+    "name": "سُورَةُ الضُّحَىٰ",
+    "englishName": "Ad-Dhuhaa",
+    "filename": "addhuhaa",
+    "revelationType": "Meccan",
+    "ayatNumber": 11
+  },
+  {
+    "number": 94,
+    "name": "سُورَةُ الشَّرۡحِ",
+    "englishName": "Ash-Sharh",
+    "filename": "ashsharh",
+    "revelationType": "Meccan",
+    "ayatNumber": 8
+  },
+  {
+    "number": 95,
+    "name": "سُورَةُ التِّينِ",
+    "englishName": "At-Tin",
+    "filename": "attin",
+    "revelationType": "Meccan",
+    "ayatNumber": 8
+  },
+  {
+    "number": 96,
+    "name": "سُورَةُ العَلَقِ",
+    "englishName": "Al-Alaq",
+    "filename": "alalaq",
+    "revelationType": "Meccan",
+    "ayatNumber": 19
+  },
+  {
+    "number": 97,
+    "name": "سُورَةُ القدر",
+    "englishName": "Al-Qadr",
+    "filename": "alqadr",
+    "revelationType": "Meccan",
+    "ayatNumber": 5
+  },
+  {
+    "number": 98,
+    "name": "سُورَةُ البَيِّنَةِ",
+    "englishName": "Al-Bayyina",
+    "filename": "albayyina",
+    "revelationType": "Medinan",
+    "ayatNumber": 8
+  },
+  {
+    "number": 99,
+    "name": "سُورَةُ الزَّلْزَلَةِ",
+    "englishName": "Az-Zalzala",
+    "filename": "azzalzala",
+    "revelationType": "Medinan",
+    "ayatNumber": 8
+  },
+  {
+    "number": 100,
+    "name": "سُورَةُ العَادِيَاتِ",
+    "englishName": "Al-Aadiyaat",
+    "filename": "alaadiyaat",
+    "revelationType": "Meccan",
+    "ayatNumber": 11
+  },
+  {
+    "number": 101,
+    "name": "سُورَةُ القَارِعَةِ",
+    "englishName": "Al-Qari'a",
+    "filename": "alqaria",
+    "revelationType": "Meccan",
+    "ayatNumber": 11
+  },
+  {
+    "number": 102,
+    "name": "سُورَةُ التَّكَاثُرِ",
+    "englishName": "At-Takaathur",
+    "filename": "attakaathur",
+    "revelationType": "Meccan",
+    "ayatNumber": 8
+  },
+  {
+    "number": 103,
+    "name": "سُورَةُ العصرِ",
+    "englishName": "Al-Asr",
+    "filename": "alasr",
+    "revelationType": "Meccan",
+    "ayatNumber": 3
+  },
+  {
+    "number": 104,
+    "name": "سُورَةُ الهمَزَةِ",
+    "englishName": "Al-Humaza",
+    "filename": "alhumaza",
+    "revelationType": "Meccan",
+    "ayatNumber": 9
+  },
+  {
+    "number": 105,
+    "name": "سُورَةُ الفِيلِ",
+    "englishName": "Al-Fil",
+    "filename": "alfil",
+    "revelationType": "Meccan",
+    "ayatNumber": 5
+  },
+  {
+    "number": 106,
+    "name": "سُورَةُ قُرَيْشٍ",
+    "englishName": "Quraish",
+    "filename": "quraish",
+    "revelationType": "Meccan",
+    "ayatNumber": 4
+  },
+  {
+    "number": 107,
+    "name": "سُورَةُ المَاعُونِ",
+    "englishName": "Al-Ma'un",
+    "filename": "almaun",
+    "revelationType": "Meccan",
+    "ayatNumber": 7
+  },
+  {
+    "number": 108,
+    "name": "سُورَةُ الكَوْثَرِ",
+    "englishName": "Al-Kawthar",
+    "filename": "alkawthar",
+    "revelationType": "Meccan",
+    "ayatNumber": 3
+  },
+  {
+    "number": 109,
+    "name": "سُورَةُ الكَافِرُونَ",
+    "englishName": "Al-Kafirun",
+    "filename": "alkafirun",
+    "revelationType": "Meccan",
+    "ayatNumber": 6
+  },
+  {
+    "number": 110,
+    "name": "سُورَةُ النَّصْرِ",
+    "englishName": "An-Nasr",
+    "filename": "annasr",
+    "revelationType": "Medinan",
+    "ayatNumber": 3
+  },
+  {
+    "number": 111,
+    "name": "سُورَةُ المسَدِ",
+    "englishName": "Al-Masad",
+    "filename": "almasad",
+    "revelationType": "Meccan",
+    "ayatNumber": 5
+  },
+  {
+    "number": 112,
+    "name": "سُورَةُ الإِخْلَاصِ",
+    "englishName": "Al-Ikhlas",
+    "filename": "alikhlas",
+    "revelationType": "Meccan",
+    "ayatNumber": 4
+  },
+  {
+    "number": 113,
+    "name": "سُورَةُ الفَلَقِ",
+    "englishName": "Al-Falaq",
+    "filename": "alfalaq",
+    "revelationType": "Meccan",
+    "ayatNumber": 5
+  },
+  {
+    "number": 114,
+    "name": "سُورَةُ النَّاسِ",
+    "englishName": "An-Nas",
+    "filename": "annas",
+    "revelationType": "Meccan",
+    "ayatNumber": 6
+  }
+]
