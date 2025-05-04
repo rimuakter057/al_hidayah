@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hidayah/app/utils/color/app_colors.dart';
 import 'package:hidayah/features/common/widget/custom_divider.dart';
-
 import '../../common/widget/custom_appbar.dart';
 import 'data/info_list.dart';
 

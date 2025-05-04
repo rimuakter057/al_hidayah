@@ -38,6 +38,7 @@ dependencies:
   google_fonts: ^6.2.1
   logger: ^2.5.0
   syncfusion_flutter_pdfviewer: ^29.1.40
+  flutter_launcher_icons: ^0.14.3
 
 
 
