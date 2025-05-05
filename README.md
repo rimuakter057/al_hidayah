@@ -10,16 +10,14 @@ An Islamic app to read and explore the Quran and Hadis.
   <img src="assets/screenshots/home.jpg" width="180"/>
   <img src="assets/screenshots/home_1.jpg" width="180"/>
   <img src="assets/screenshots/sura_name.jpg" width="180"/>
-  <img src="assets/screenshots/sura_meaning.jpg" width="180"/>
 </p>
 
 ### 🔹 Row 2
 <p float="left">
-   <img src="assets/screenshots/hadis_home.jpg" width="180"/>
+  <img src="assets/screenshots/sura_meaning.jpg" width="180"/>
+  <img src="assets/screenshots/hadis_home.jpg" width="180"/>
   <img src="assets/screenshots/hadis.jpg" width="180"/>
   <img src="assets/screenshots/name.jpg" width="180"/>
-  <img src="assets/screenshots/fojor.jpg" width="180"/>
-  <img src="assets/screenshots/read_more.jpg" width="180"/>
 </p>
 
 ### 🔹 Row 3
@@ -28,6 +26,11 @@ An Islamic app to read and explore the Quran and Hadis.
   <img src="assets/screenshots/hoz.jpg" width="180"/>
   <img src="assets/screenshots/isha.jpg" width="180"/>
   <img src="assets/screenshots/jakat.jpg" width="180"/>
+</p>
+### 🔹 Row 3
+<p float="left">
+  <img src="assets/screenshots/fojor.jpg" width="180"/>
+  <img src="assets/screenshots/read_more.jpg" width="180"/>
 </p>
 
 ---
