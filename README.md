@@ -15,8 +15,8 @@ An Islamic app to read and explore the Quran and Hadis.
 ### 🔹 Row 2
 <p float="left">
   <img src="assets/screenshots/sura_meaning.jpg" width="180"/>
-  <img src="assets/screenshots/hadis_home.jpg" width="180"/>
-  <img src="assets/screenshots/hadis.jpg" width="180"/>
+  <img src="assets/screenshots/hadis_list.jpg" width="180"/>
+  <img src="assets/screenshots/hadis_read" width="180"/>
   <img src="assets/screenshots/name.jpg" width="180"/>
 </p>
 
@@ -30,7 +30,7 @@ An Islamic app to read and explore the Quran and Hadis.
 ### 🔹 Row 3
 <p float="left">
   <img src="assets/screenshots/fojor.jpg" width="180"/>
-  <img src="assets/screenshots/read_more.jpg" width="180"/>
+  <img src="assets/screenshots/more_read.jpg" width="180"/>
 </p>
 
 ---
