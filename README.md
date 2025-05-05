@@ -8,7 +8,7 @@ An Islamic app to read and explore the Quran and Hadis.
 <p float="left">
   <img src="assets/screenshots/splash.jpg" width="180"/>
   <img src="assets/screenshots/home.jpg" width="180"/>
-  <img src="assets/screenshots/home_1.png" width="180"/>
+  <img src="assets/screenshots/home_1.jpg" width="180"/>
   <img src="assets/screenshots/sura_name.jpg" width="180"/>
   <img src="assets/screenshots/sura_meaning.jpg" width="180"/>
 </p>
