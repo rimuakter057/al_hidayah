@@ -91,7 +91,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     },
                     child: Card(
                       elevation: 3,
-                      shadowColor: AppColors.primaryColor,
+                      shadowColor: AppColors.white,
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 8.0),
                         child: Column(

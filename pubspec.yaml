@@ -79,7 +79,7 @@ flutter:
     - assets/pdf/Sahih_Bukhari_Part-8.pdf
     - assets/pdf/Sahih_Bukhari_Part-9.pdf
     - assets/pdf/Sahih_Bukhari_Part-10.pdf
-    - assets/screenshots
+    - assets/screenshots/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
